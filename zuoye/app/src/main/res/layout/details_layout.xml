@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/details_1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:text="真不是动画原声？16岁华裔钢琴少女陈家欣还原《猫和老鼠》配乐"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#bfbfbf"
+        android:text="会弹钢琴好酷啊"
+        android:gravity="center"
+        android:textSize="8sp"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/demoper"/>
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="by  小五_Akuma"
+            android:textSize="10sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="《猫和老鼠》是我小时候最爱看的动画片，不仅仅是因为 Tom 和 Jerry 这对老对头实在太有趣，也是因为《猫和老鼠》几乎没有对话，也很少有文字，所有的剧情和气氛都可以很直接地感受到。
+
+说起简单易懂这一点，动画片采用的配乐肯定也是当之无愧的大功臣。不知道还有多少朋友记得上个世纪40年代公映的这部《猫和老鼠——猫的协奏曲》，动画中 Tom 化身钢琴演奏家，在自己的专场表演会上演奏了李斯特的《C升小调第二号匈牙利狂想曲》（Hungarian Rhapsody No. 2 in C Sharp Minor ）以及肖邦的《D小调肖邦24首前奏曲》（24 Preludes, Op. 28//xxiv D min）。正是音乐与剧情的完美结合，使这部动画夺得了1946年的奥斯卡最佳动画短片奖。"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/details_2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去年6月份，年仅16岁的华裔少女陈家欣（Yannie Tan）在美国佐治亚州亚特兰大 Peachtree Presbytarian 教堂还原了动画中的改编版本《C升小调第二号匈牙利狂想曲》。不仅演奏技巧令人赞叹，与动画原片的同步率也相当高。"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/details_3"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/details_4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="陈家欣很有天赋，4岁起开始学习钢琴。2013、2014、2015年，她蝉联了 MTNA 全国音乐教师协会佐治亚州冠军，2016年又获得了 MTNA 的钢琴独奏全国冠军。
+
+其实今年7月份，陈家欣还有过一段《猫和老鼠》主题的演奏，这次是1964年公映的《猫和老鼠——Snowbody Loves Me》。这部片子中的配乐改编了几首肖邦的作品，其中比较著名的有《练习曲作品10第12号》（Étude Op. 10, No. 12）、《降E大调华丽大圆舞曲》（Grande valse brillante in E-flat major）以及《幻想即兴曲》（Fantaisie-Impromptu）。"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/detail_5"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/detail_6"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/detail_7"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一边看着动画片的画面，一边进行钢琴演奏，顺带还有一些简单点的去敲击音效，她的演奏与动画片段放在一起也没有什么违和感，完全可以感受到陈家欣对《猫和老鼠》这部动画片的喜爱。
+
+每每到这种时候都要感叹，会演奏乐器真的好厉害啊！"/>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

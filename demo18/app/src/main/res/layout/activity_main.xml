@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnFram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始或停止帧动画"/>
+    <Button
+        android:id="@+id/btnFramJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="java"/>
+    <Button
+        android:id="@+id/btnTween"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自动补间动画"/>
+    <Button
+        android:id="@+id/btnTweenJava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TweenJava"/>
+    <Button
+        android:id="@+id/btnJump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/frame_animation"/>
+
+</android.support.constraint.ConstraintLayout>

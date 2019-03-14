@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.stx.xhb.xbanner.XBanner
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/xbanner"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:AutoPlayTime="3000"
+        app:pointsContainerBackground="#44aaaaaa"
+        app:pointNormal="@drawable/shape_noraml"
+        app:pointSelect="@drawable/shape_selected"
+        app:pointsPosition="RIGHT"
+        app:tipTextSize="12sp"
+        app:isShowNumberIndicator="true"
+        app:isShowIndicatorOnlyOne="true"
+        app:pageChangeDuration="800"/>
+
+</android.support.constraint.ConstraintLayout>

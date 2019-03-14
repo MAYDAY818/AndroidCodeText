@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name">
+        <item>游戏的玩法</item>
+        <item>游戏的另一种玩法</item>
+        <item>nvp的玩法</item>
+    </string-array>
+    <string-array name="context">
+        <item>制作游戏本身是很难的， 一个具有创意和趣味的游戏不乏称之为是更具现代气息的艺术品1</item>
+        <item>制作游戏本身是很难的， 一个具有创意和趣味的游戏不乏称之为是更具现代气息的艺术品2</item>
+        <item>制作游戏本身是很难的， 一个具有创意和趣味的游戏不乏称之为是更具现代气息的艺术品3</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textview_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAMECORES"
+        android:textSize="30sp"
+        android:typeface="serif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/but_IDorEmil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_logo"
+        android:paddingTop="40dp"
+        android:hint="ID/Email"
+        android:textSize="10dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/but_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/but_IDorEmil"
+        android:hint="Password"
+        android:textSize="10dp"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/but_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/but_Password"
+        android:background="@drawable/bt_shape"
+        android:layout_marginTop="20dp"
+        android:text="sign in"
+        android:textSize="19dp"
+        android:typeface="sans"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/but_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/but_signin"
+        android:layout_marginTop="7dp"
+        android:background="@null"
+        android:text="sign up for gamecores"
+        android:textSize="11dp"
+        android:typeface="sans"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

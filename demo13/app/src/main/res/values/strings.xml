@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">demo13</string>
+    <string name="banner_title"><![CDATA[
+   Text with markup for [b]bold[/b]
+   and [i]italic[/i] text.
+
+   There is also support for a
+   <tt>teletype-style</tt> font.
+   But no use for the <code>code</code>
+   tag!
+
+   ]]></string>
+</resources>

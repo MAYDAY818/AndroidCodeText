@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/juxing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="矩形"/>
+    <Button
+        android:id="@+id/wujiaoxing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="五角星"/>
+    <Button
+        android:id="@+id/xiantiaowenzi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线条文字"/>
+    <Button
+        android:id="@+id/wugui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="乌龟"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"/>
+
+
+
+</LinearLayout>

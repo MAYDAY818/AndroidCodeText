@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="7">
+
+    <LinearLayout
+        android:id="@+id/home_details"
+        android:layout_columnSpan="4"
+        android:layout_rowSpan="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <ImageView
+        android:layout_width="128dp"
+        android:layout_height="72dp"
+        android:src="@drawable/demo"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="真不是动画原声？16岁华裔钢琴少女陈家欣还原《猫和老鼠》配乐"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="会弹钢琴好酷啊"
+                android:textSize="8sp"/>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="新闻"
+                    android:textSize="8sp"/>
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/like"
+                    android:layout_marginLeft="40dp"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="116"
+                    android:textSize="8sp"/>
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/talk"
+                    android:layout_marginLeft="40dp"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="72"
+                    android:textSize="8sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</GridLayout>
