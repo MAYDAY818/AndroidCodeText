@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <com.scwang.smartrefresh.layout.SmartRefreshLayout
-        android:id="@+id/srl"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <ListView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-        </ListView>
-
-    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+<Button
+    android:id="@+id/buttonLoadPicture"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="获取相册"/>
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="200dp"
+        android:layout_height="300dp" />
 </LinearLayout>
