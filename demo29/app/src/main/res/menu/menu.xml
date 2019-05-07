@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="商品"
+        android:id="@+id/id1"
+        />
+    <item
+        android:id="@+id/id2"
+        android:title="购物车"
+        />
+    <item
+        android:title="个人信息"
+        android:id="@+id/id3"
+        />
+
+</menu>
